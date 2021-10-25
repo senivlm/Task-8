@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace таск_8
-{
+{Клас не є дочірнім від продуктів. 
     class Sortting_class : Product
     {
         public delegate bool Function(Product mas1, Product mas2);
-
+Сигнатура методу має бути такою, як в умові задачі.Поясню детальніше на парі.
         static public void Sort(Product[] mas, Function del) {
             for (int i = 0; i < mas.Length; i++)
             {
